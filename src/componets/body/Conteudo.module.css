@@ -1,0 +1,102 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    max-width: 1330px;   
+}
+.conteudo{
+    width: 65%;
+}
+.cabecalho{
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+   
+}
+.borda{
+    background-color: #333333;
+    width: 60px;
+    height: 8px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.opcoes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #808080;
+    height: 300px;
+    padding: 10px;
+    margin-top: 35px;
+    box-shadow: 0px 1px 3px 3px #e5e5e5e5;
+    border-radius: 5px;
+}
+.horario{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #bbbaba;
+    margin-top: 10px;
+    padding-bottom: 2.5px;
+}
+.exibir{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-bottom: 25px;
+}
+.botoes{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.find , .clear{
+    width: 250px;
+    height: 35px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.find{
+    background-color: #FFB612;
+    border: none;
+}
+.clear{
+    border-color: #e5e5e5e5;
+    background-color: rgb(245, 246, 247);
+}
+.card{
+    display: flex;
+    justify-content: center;
+    max-width: 1330px;
+}
+
+.filtCardCl{
+    display: none;
+}
+.filtCardOp{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 80% ;
+}
+@media (max-width:831px){
+    .botoes{
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+    }
+    .opcoes{
+        height: 400px;
+    }
+    
+}
+@media (max-width:395px){
+    .find , .clear{
+        width: 90%;
+    }
+}
+
+ 
+
+

@@ -1,0 +1,66 @@
+.container{
+   
+    width: 18rem;
+    margin-top: 30px;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+}
+.cardInfo{
+    border-radius: 10px;
+    background-color: #e5e5e5e5;
+    padding-left: 10px;
+    width: 20rem;
+    height: 25rem;
+}
+.open{
+    color: rgb(163, 221, 76);
+}
+.close{
+    color: rgb(255, 25, 25);
+}
+.estado{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.titulo{
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+.endereco{
+    font-size: 13px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+.divisoria{
+    margin-bottom: 20px;
+    border-bottom:1px solid #949494e5 ;
+    width: 95%;
+}
+.imagens{
+    display: flex;
+    justify-content: space-around;
+    width: 17rem;
+    margin-bottom: 20px;
+}
+.horarios{  
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.lista{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.lista b{
+    color:black;
+    font-size: 20px;
+}
+
